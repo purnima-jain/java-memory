@@ -22,6 +22,10 @@ public class OOMCrash {
 			
 			if (counter % 1000 == 0) {
 				System.out.println("Added " + counter + " elements");
+				
+				// Uncomment to avoid OOME
+				// System.out.println("Removing " + counter + " elements");
+				// map.clear();
 			}
 		}
 	}
