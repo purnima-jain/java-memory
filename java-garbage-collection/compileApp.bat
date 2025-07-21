@@ -1,7 +1,8 @@
 call setJavaEnv.bat
 
-%JAVA% -XX:+PrintCommandLineFlags -version
+REM ******************************************
 
+REM Compile the codebase and create a jar in the target folder
 mvn clean install -U
 
 
